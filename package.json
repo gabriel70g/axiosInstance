@@ -1,0 +1,23 @@
+{
+  "name": "axiosinstance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require dotenv/config 'test/**/*.test.js'",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.22.0",
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "nyc": "^15.1.0"
+  }
+}
